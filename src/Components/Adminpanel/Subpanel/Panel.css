@@ -1,0 +1,89 @@
+
+.admin-container {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.admin-nav-heading {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.admin-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: black;
+}
+
+.admin-form button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.admin-form button:hover {
+  background-color: #3e8e41;
+}
+
+.navbar-item-list,
+.social-links-list {
+  list-style: none;
+  padding: 0;
+  color: black;
+  margin: 0;
+}
+
+.navbar-item-list li,
+.social-links-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+.navbar-item-list li button,
+.social-links-list li button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.social-links-list li a {
+  color: inherit; /* Inherit link color from parent element */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.social-links-list li a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.admin-slide-container{
+  color: black;
+}
+
+.whychoose-panel label{
+  color: black;
+}
+
+.whychoose-panel h2{
+  color: black;
+}
